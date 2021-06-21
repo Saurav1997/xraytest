@@ -1,0 +1,15 @@
+default: test
+test:
+  jira: 
+    server: https://testsetup.atlassian.net/
+    type: cloud
+    user : saurav.santhosh@gmail.com
+    apikey : YTNZvQPzlczkEsy84PazA7D1
+    project : BROT
+production:
+  jira:
+    server: https://ambrijira.am.brothergroup.net:8443
+    type: server
+    user : santhosh
+    apikey: Jira@LF22
+    project : XT
